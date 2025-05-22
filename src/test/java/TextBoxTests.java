@@ -10,6 +10,7 @@ public class TextBoxTests {
 
     @BeforeAll
     static void beforeAll() {
+
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://www.google.com";
